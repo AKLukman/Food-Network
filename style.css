@@ -2,16 +2,45 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FC8F49;
+    opacity: 0.95;
+    position: fixed;
+    top: 0;
+}
+
+nav h2 a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 20px; 
+    color:#fff;       
+}
+
+nav ul li{
+    display: inline;   
+}
+nav ul{
+    margin-right: 100px;
+    margin-top: 26px;
+}
+
+
 .first-section{
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .half-width{
     width: 50%;
     margin-left: 5%;
-    
-
 }
+
 .half-width img{
     width: 80%;
 }
@@ -50,21 +79,15 @@ h1 span{
     width: 50%;
     margin-top: 60px;
     margin-left: 120px;
-    
 }
-.pink-color{
-    height: 30px;
-    background-color: #FEF3ED;
-   
 
-}
 #about{
     margin-top: 100px;
     margin-left: 30px;
     
 }
+
 .h2-text{
-    
     color: #8F8984;
     font-size: 40px;
     font-weight: 800;
@@ -75,6 +98,7 @@ h1 span{
     text-align: center;
     margin: 0 300px;
 }
+
 .third-section p{
     font-size: 18px;
 }
@@ -83,21 +107,19 @@ h1 span{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    
-    
 }
+
 .recipe .one-third-width {
-   
     margin: 0 40px;
     box-shadow: 0px 0px 40px gainsboro;
     border-radius: 25px;
-
 }
 .recipe .one-third-width h2{
     text-align: left;
     margin-left: 15px;
     margin-top: 35px;
 }
+
 .recipe .one-third-width p{
     text-align: left;
     font-size: 16px;
@@ -107,13 +129,14 @@ h1 span{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .recipe .one-third-width img{
    width: 80%;
    margin-left: 35px;
    margin-top: 20px;
 }
+
 .followers{
-    
     display: flex;
     box-shadow: 0px 0px 40px gainsboro;
     justify-content: space-between;
@@ -141,6 +164,7 @@ h1 span{
 }
 
 .subscription h3{
+    font-size: 24px;
     font-weight: bold;
 }
 .subscription input{
@@ -158,9 +182,6 @@ h1 span{
     border-radius: 5px;
 }
 
-
-
-
 footer{
     background-color: #000000;
     color: #fff;
@@ -168,9 +189,11 @@ footer{
     padding: 50px;
     margin-top: 100px;
 }
+
 footer span{
     color: orange;
 }
+
 footer h2{
     font-size: 40px;
     font-weight: 700px;
